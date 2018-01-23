@@ -1,22 +1,23 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Alexandre
- * Date: 22/01/2018
- * Time: 03:28
- */
 
-require('Controleurs/Controller.php');
+require('Controleurs/Controleur.php');
 
-if(isset($_GET['test']))
+if(isset($_GET['action']))
 {
-    if($_GET['test'] == 'affTest')
+    if($_GET['action'] == 'membres')
     {
-        affTest();
+        afficherMembres();
     }
-    elseif($_GET[test] == 'affTestParam')
+    elseif($_GET['action'] == 'membre')
     {
-        affTestParam();
+        if(isset($_GET['id']))
+        {
+            afficherMembre($_GET['id']);
+        }
+    }
+    elseif($_GET['action'] == 'accueil')
+    {
+        affAccueil();
     }
     else
     {

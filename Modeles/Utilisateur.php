@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Alexandre
- * Date: 15/01/2018
- * Time: 02:49
- */
-
 class Utilisateur
 {
 
