@@ -13,28 +13,33 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="/">NomDuForum</a>
+            <a class="navbar-brand" href="?action=accueil">NomDuForum</a>
             <div class="navbar-collapse collapse" id="collapsingNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/forums">Forums</a>
+                        <a class="nav-link" href="?action=forums">Forums</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/membre">Membres</a>
+                        <a class="nav-link" href="?action=membres">Membres</a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="/statistiques">Statistiques</a>
                     </li>
-                    <li class="nav-item text-center">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="text-center nav-item">
                         <a class="nav-link" href="/connexion">Connexion</a>
                     </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="/inscription">Inscription</a>
+                    <li class="text-center nav-item">
+                        <a class="nav-link" href="/insciption">Inscription</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
         <?= $contenu ?>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <script type="text/javascript" src="Vues/js/script.js"></script>
     </body>
 </html>
