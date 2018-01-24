@@ -32,7 +32,7 @@
                         <a class="nav-link" href="/connexion">Connexion</a>
                     </li>
                     <li class="text-center nav-item">
-                        <a class="nav-link" href="/insciption">Inscription</a>
+                        <a class="nav-link" href="/inscription">Inscription</a>
                     </li>
                 </ul>
             </div>

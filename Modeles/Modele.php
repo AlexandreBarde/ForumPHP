@@ -32,6 +32,15 @@ function getMembre($id)
     return $membre;
 }
 
+function getRank($id)
+{
+    $db = dbConnexion();
+    $req = $db->prepare('SELECT title from rank WHERE id_rank = ?');
+    $req->execute(array($id));
+    $rank = $req->fetch();
+    return $rank['title'];
+}
+
 function dbConnexion()
 {
     try
@@ -44,5 +53,7 @@ function dbConnexion()
         die('Erreur : '.$e->getMessage());
     }
 }
+
+
 
 ?>
