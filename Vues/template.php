@@ -18,21 +18,21 @@
             <div class="navbar-collapse collapse" id="collapsingNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="?action=forums">Forums</a>
+                        <a class="nav-link" href="?action=#">Forums</a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="?action=membres">Membres</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/statistiques">Statistiques</a>
+                        <a class="nav-link" href="?action=#">Statistiques</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="text-center nav-item">
-                        <a class="nav-link" href="/connexion">Connexion</a>
+                        <a class="nav-link" href="?action=#">Connexion</a>
                     </li>
                     <li class="text-center nav-item">
-                        <a class="nav-link" href="/inscription">Inscription</a>
+                        <a class="nav-link" href="?action=inscription">Inscription</a>
                     </li>
                 </ul>
             </div>

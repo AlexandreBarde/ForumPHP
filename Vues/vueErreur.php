@@ -1,5 +1,7 @@
 <?php
 
+$titre = 'Erreur';
+
 ob_start(); ?>
 
 <div class="jumbotron jumbotron-fluid jumbotron-header bg-primary text-white">
@@ -7,6 +9,7 @@ ob_start(); ?>
 </div>
 
 <div class="container">
+    <h2>Une erreur est survenue.</h2>
     <a href="?action=accueil">Retour à l'accueil</a>
 </div>
 

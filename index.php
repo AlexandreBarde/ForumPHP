@@ -19,9 +19,13 @@ if(isset($_GET['action']))
     {
         affAccueil();
     }
+    elseif($_GET['action'] == 'inscription')
+    {
+        afficherInscription();
+    }
     else
     {
-        echo 'Erreur';
+        afficherErreur();
     }
 }
 else

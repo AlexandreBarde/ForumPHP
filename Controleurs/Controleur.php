@@ -8,6 +8,16 @@ function affAccueil()
     require('Vues/vueAccueil.php');
 }
 
+function afficherErreur()
+{
+    require('Vues/vueErreur.php');
+}
+
+function afficherInscription()
+{
+    require('Vues/vueInscription.php');
+}
+
 function afficherMembres()
 {
     $membres = getMembres();
