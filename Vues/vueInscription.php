@@ -45,7 +45,7 @@ ob_start(); ?>
                 </div>
                 <div class="dropdown-divider"></div>
                 <div class="form-group">
-                    <button class="btn btn-primary" id="login" type="submit">Se connecter</button>
+                    <button class="btn btn-primary" id="login" type="submit">S'inscrire</button>
                 </div>
             </form>
         </div>

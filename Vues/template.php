@@ -29,7 +29,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="text-center nav-item">
-                        <a class="nav-link" href="?action=#">Connexion</a>
+                        <a class="nav-link" href="?action=connexion">Connexion</a>
                     </li>
                     <li class="text-center nav-item">
                         <a class="nav-link" href="?action=inscription">Inscription</a>
