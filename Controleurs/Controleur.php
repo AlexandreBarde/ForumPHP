@@ -18,6 +18,11 @@ function afficherInscription()
     require('Vues/vueInscription.php');
 }
 
+function afficherConnexion()
+{
+    require('Vues/vueConnexion.php');
+}
+
 function afficherMembres()
 {
     $membres = getMembres();

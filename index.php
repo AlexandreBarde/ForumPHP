@@ -23,6 +23,10 @@ if(isset($_GET['action']))
     {
         afficherInscription();
     }
+    elseif($_GET['action'] == 'connexion')
+    {
+        afficherConnexion();
+    }
     else
     {
         afficherErreur();
