@@ -8,7 +8,7 @@ ob_start(); ?>
 
 <div class="row">
     <div class="col-xl-6 offset-xl-3 col-md-8 col-lg-8 offset-lg-2 offset-md-2 col-sm-12">
-        <table class="table table-hover">
+        <table id="itemTable" class="table table-hover">
             <tr>
                 <th class="text-center table-header">ID</th>
                 <th class="text-center table-header">Pseudo</th>
