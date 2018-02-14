@@ -14,7 +14,6 @@ ob_start(); ?>
                     <label for="username">Nom d'utilisateur ou adresse email</label>
                     <input required class="form-control" type="text" name="username" id="username">
                 </div>
-                <div class="dropdown-divider"></div>
                 <div class="form-group">
                     <label for="password">Mot de passe</label>
                     <input required class="form-control" type="password" name="password" id="password">
